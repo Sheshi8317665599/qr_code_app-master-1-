@@ -25,8 +25,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.example.qr_code_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk 28
+    ndkVersion 30
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
